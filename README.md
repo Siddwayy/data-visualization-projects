@@ -2,8 +2,7 @@
 
 A data visualization of birding across Newfoundland & Labrador, built for the Johnson Geo Centre using the eBird 2025 dataset.
 
-<img width="4800" height="7200" alt="infographic(36)" src="https://github.com/user-attachments/assets/70abd3c8-46e3-4633-a9f9-2cda41e41a32" />
-
+![Infographic](infographic.png)
 
 ## What This Is
 
@@ -18,8 +17,8 @@ A 36×24 inch infographic poster and an interactive Dash dashboard — both gene
 ```bash
 pip install pandas numpy matplotlib geopandas pillow requests dash plotly
 
-# Generate the poster
-python infographic.py
+# Generate the poster — open in Jupyter and run all cells
+jupyter notebook infographic.ipynb
 
 # Run the dashboard
 python dashboard.py
@@ -29,7 +28,7 @@ python dashboard.py
 
 ```
 birds.csv            eBird 2025 data for NL
-infographic.py       Poster script (single Jupyter cell)
+infographic.ipynb     Poster notebook (single cell)
 dashboard.py         Interactive Dash dashboard
 portfolio.html       Project portfolio page
 ```
